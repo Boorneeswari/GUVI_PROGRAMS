@@ -6,7 +6,7 @@ for i in range(2,num):
         break
     else:
         flag=0
-        break
+        
 if flag==1:
     print("no")
 else:
