@@ -1,5 +1,5 @@
 import string
-lis=list(string.ascii_lowercase)
+lis=list(string.ascii_lowercase+string.ascii_uppercase)
 word=input()
 check=word.lower()
 check=check.split()
