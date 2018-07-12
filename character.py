@@ -7,4 +7,4 @@ for i in check:
     if i in lis:
         print("yes")
     else:
-        print("no")
+        print("No")
