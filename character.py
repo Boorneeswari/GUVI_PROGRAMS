@@ -5,6 +5,6 @@ check=word.lower()
 check=check.split()
 for i in check:
     if i in lis:
-        print("yes")
+        print("Alphabet")
     else:
         print("No")
