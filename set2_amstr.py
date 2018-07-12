@@ -5,7 +5,6 @@ while(num!=0):
     rem=num%10
     c=c+(rem*rem*rem)
     num=num//10
-print (c)
 if num1==c:
     print("yes")
 else:
