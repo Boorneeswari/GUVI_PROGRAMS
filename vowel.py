@@ -9,6 +9,8 @@ for i in check:
         print("Vowel")
     elif i in lis:
         print("Consonant")
+    elif i=='z':
+        print("Consonant")
     else:
         print("invalid")
 
