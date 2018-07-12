@@ -1,8 +1,6 @@
-import string
-lis=list(string.ascii_lowercase+string.ascii_uppercase)
+lis=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 word=input()
 check=word.lower()
-check=check.split()
 for i in check:
     if i in lis:
         print("Alphabet")
