@@ -19,6 +19,8 @@ for i in lis:
   summ=0
 for j in lis1:
   if j in lis:
-    print(j)
+    if lis.index(j)==lis1.index(j):
+      print(j)
   else:
     pass
+  
