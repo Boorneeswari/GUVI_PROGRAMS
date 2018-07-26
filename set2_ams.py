@@ -8,7 +8,6 @@ lis1=[]
 summ=0
 for i in range(frst,sec):
   lis.append(i)
-print(lis)
 for i in lis:
   while(i>0):
     rem=i%10
@@ -20,7 +19,7 @@ for i in lis:
 for j in lis1:
   if j in lis:
     if lis.index(j)==lis1.index(j):
-      print j,
+      print(j)
   else:
     pass
   
