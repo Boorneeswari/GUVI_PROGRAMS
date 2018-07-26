@@ -6,7 +6,7 @@ c=0
 lis=[]
 lis1=[]
 summ=0
-for i in range(frst,sec+1):
+for i in range(frst,sec):
   lis.append(i)
 print(lis)
 for i in lis:
