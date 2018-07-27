@@ -4,6 +4,6 @@ try:
     pass
 
 except:
-  print("No")
+  print("no")
 else:
   print("yes")
