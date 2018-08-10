@@ -4,4 +4,4 @@ if time <=60:
 else:
   rem=time%60
   div=time//60
-  print(div,rem)
+  print div,rem
