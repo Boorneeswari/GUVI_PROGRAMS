@@ -1,9 +1,8 @@
-name=raw_input()
-name=name.split(" ")
+name=input()
 count=0
 for j in name:
     if j.isdigit()==True:
-        print(len(j))
+        count=count+1
+print(count)
         
-    
        
